@@ -1,0 +1,28 @@
+body{
+background-color: #42cef4;
+
+}
+.button{
+  background-color: teal;
+  border:none;
+  color:lemon;
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 20px;
+}
+.UseDiv{
+  padding-top: 30px;
+  text-align: center;
+  margin: 30px;
+  background-color: #4268f4;
+  min-width: 400px;
+  min-height: 200px;
+  border-radius: 5px;
+}
+
+div:hover{
+  background-color: teal;
+}
+img{
+  transform: rotate(-90deg);
+}
