@@ -31,7 +31,7 @@ background-color: #42cef4;
   min-height: 200px;
   border-radius: 5px;
 }
-.pic:hover{
+#pic:hover{
   background-color: green;
 }
 
