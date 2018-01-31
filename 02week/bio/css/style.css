@@ -5,11 +5,23 @@ background-color: #42cef4;
 .button{
   background-color: teal;
   border:none;
-  color:lemon;
+/* hover color:lemon; */
   padding: 20px 40px;
   text-align: center;
   font-size: 20px;
 }
+.button:hover
+{
+  background-color: green; <!-- change the color of the like button when hovered over
+
+}
+ <!-- secting the button with specific features/style -->
+ h1 {
+     float: right;
+       text-shadow: 5px 5px #f442a4;
+    font-family: sans-serif;
+ }
+
 .UseDiv{
   padding-top: 30px;
   text-align: center;
@@ -19,10 +31,20 @@ background-color: #42cef4;
   min-height: 200px;
   border-radius: 5px;
 }
+.pic:hover{
+  background-color: green;
+}
 
 div:hover{
   background-color: teal;
 }
 img{
   transform: rotate(-90deg);
+}
+<!-- the line above help to keep image in the right format, or to make it inverted -->
+
+p::first-letter {
+  text-transform: uppercase;
+  color: green;
+  font-size: 50px;
 }
