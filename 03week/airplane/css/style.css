@@ -8,10 +8,11 @@ html{
 
 }
 .navigation{
-  padding: 40px 62px 28px 750px;
+  /* padding: 40px 62px 28px 750px; */
   border-bottom: 2px solid white;
   background-color: #193A55;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   /* position: absolute;  commented this out, because it takes the outsection div, and place it on top the navigation*/
 
    /* set the background of the menu/navigation bar to image, and pad it */
@@ -22,6 +23,8 @@ html{
   text-decoration: none;
      font-size: 18px;
      font-weight: bold;
+     display: inline-block;
+
    /* the class above is to format the menu text appearance */
 
 }
@@ -32,10 +35,7 @@ html{
  }
 .dd{
   background-color: none;
-   padding: 0px 0px 0px 0px;
-  margin-right: 0px 0px 0px 0px;
   clear: right;
-  margin-left: 0px;
   /* a div item in the menu for the navigation this is to hold the image on menu bar */
 }
 .outsection{
