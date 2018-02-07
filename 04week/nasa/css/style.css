@@ -1,0 +1,32 @@
+body{
+  width: 850;
+  margin: 0 auto;
+}
+.partone{
+  background-image: url('../img/nasa-background.jpg');
+  display: flex; /* helps me position my content */
+  justify-content: center;
+  align-items: center; /* implement flex function */
+  width: 850px;
+  height: 450px;
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+  font-size: 100px !important;
+/* top part of page is styled here */
+}
+.parttwo{
+  display: flex;
+  width: 850px;
+    height: 324px;
+    background-color: #C0C0C0;
+    justify-content: space-around;
+    /* margin-top: 20 !important; */
+    margin: 0 auto;
+    padding-top: 20px;
+     border-top: 20px solid white;
+/* second part of page is styled here */
+}
+.parttwo h3{
+  font-weight: bold;
+}
