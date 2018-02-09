@@ -4,11 +4,11 @@ html{
   width: 100%;
   /* make airline.jpg the background: image */
   font-family: 'Open Sans', sans-serif;
-  height: 800px;
+  height: auto;
 
 }
 .navigation{
-  /* padding: 40px 62px 28px 750px; */
+height: 100;
   border-bottom: 2px solid white;
   background-color: #193A55;
   display: flex;
@@ -21,8 +21,8 @@ html{
 .navigation a {
  color: white !important;
   text-decoration: none;
-     font-size: 18px;
-     font-weight: bold;
+     font-size: 13px;
+     font-weight: normal;
      display: inline-block;
 
    /* the class above is to format the menu text appearance */
@@ -35,8 +35,14 @@ html{
  }
 .dd{
   background-color: none;
-  clear: right;
+  margin-left: 50px
+  /* clear: right; */
   /* a div item in the menu for the navigation this is to hold the image on menu bar */
+}
+.divicon{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 10px 10px 0px;
 }
 .outsection{
   background-color: #193A55;
@@ -64,6 +70,26 @@ html{
     border: 3px solid white;
     /* this is to design Arrive and Depart box in a div */
 }
+.depart-field{
+  background-color: #193A55;
+  width: 168px;
+  height: 48px;
+  margin: auto;
+  display: inline-block;
+  border: none;
+  /* I put a text field with place holder inside the innerbox, with a placeholder */
+}
+.Arrive-field{
+  background-color: #193A55;
+  width: 168px;
+  height: 48px;
+  margin: auto;
+  display: inline-block;
+  border: none;
+}
+::placeholder {
+    background-color: #193A55 !important;
+    }
 .departdate {
     width: 170px;
     height: 60px;
@@ -79,17 +105,25 @@ html{
   display: inline-block;
   border: 3px solid white;
 }
-.Arrivaldate form{
-  background-color: none;
+.form{
+  background-color: #193A55;
+  /* I tried setting the form and the placeholder background colors to none,
+   hoping it will show no color, living it to the background color of the parent,
+   but that did not work, because it was showing as a regular text field */
+}
+.input{
+  background-color: #193A55;
 }
 .passentgerdiv{
+  background-color: #193A55;
   color: white;
-  width: 130px;
-  height: 60px;
+  width: 60px;
+  height: 50px;
   margin: 10px;
   display: inline-block;
   border: 3px solid white;
 }
+.outsection{color: white;}
 .radiofont{
   color: white;
   width: 180px;
@@ -99,12 +133,18 @@ html{
   border: none;
 }
 .searchdiv{
-  background-color: blue;
-  background-position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #0a6daf;
   color: white;
   width: 250px;
   height: 40px;
-  margin: 10px;
-  display: inline-block;
+  display: block;
   border: none;
+}
+.searchdiv a{
+
+  color: white;
+  text-decoration: none;
 }
