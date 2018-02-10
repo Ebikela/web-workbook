@@ -1,0 +1,88 @@
+html{
+   border-left: 50px solid black;
+  border-right: 50px solid black;
+}
+body{
+   border: 30px solid white;
+   justify-content: center;
+}
+.topsection{
+  background-color: #2bcdc0;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 20px black;
+}
+.title{
+  color: white;
+  font-family: 'Lora', serif;
+}
+.title span {
+  font-weight: 600;
+}
+.title h1{
+  font-weight: 100;
+}
+.maincontainer{
+  background-color: black;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.column{
+  text-align: center;
+  width: 200px;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+.column h1{
+  font-weight: bold;
+  font-size: 2em;
+}
+.column p{
+  font-size: 1em;
+}
+.column:nth-child(1){
+  border-top: solid 30px #33a8dd;
+}
+.column:nth-child(2){
+  border-top: solid 30px #f46731;
+}
+.column:nth-child(3){
+  border-top: solid 30px #2bcdc0;
+}
+/* styling a responsive mobile view below------------------------------------------------------------ */
+ @media(max-width: 576px)
+{
+  .topsection{
+    background-color: #33a8dd;
+    border-bottom: none;
+  }
+  .maincontainer{
+    background-color: lightgrey;
+    /* display: block;
+    justify-content: space-around;
+    height: auto;  */
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top:  20px solid lightgrey;
+    /* using the display:block did not work for me, it displays the column div in column
+    but would not center it in the maincontainer*/
+  }
+.column{
+  color: black;
+}
+  .column:nth-child(1){
+    border-top: solid 30px #33a8dd;
+  }
+  .column:nth-child(3){
+    border-top: solid 30px #2bcdc0;;
+  }
+/* end of first @media style  */
+}
