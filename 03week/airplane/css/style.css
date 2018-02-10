@@ -105,27 +105,33 @@ height: 100;
   display: inline-block;
   border: 3px solid white;
 }
-.form{
+form{
   background-color: #193A55;
   /* I tried setting the form and the placeholder background colors to none,
    hoping it will show no color, living it to the background color of the parent,
    but that did not work, because it was showing as a regular text field */
 }
-.input{
+input{
   background-color: #193A55;
+  border: none;
+  color: white;
 }
+input:nth-child(2){
+  color: grey !important;
+}
+/* not sure why the nth-child didnt work here */
 .passentgerdiv{
   background-color: #193A55;
-  color: white;
   width: 60px;
   height: 50px;
   margin: 10px;
   display: inline-block;
   border: 3px solid white;
 }
-.outsection{color: white;}
-.radiofont{
+.outsection{
   color: white;
+}
+.radiofont{
   width: 180px;
   height: 60px;
   margin: 10px;
@@ -133,18 +139,20 @@ height: 100;
   border: none;
 }
 .searchdiv{
-  display: flex;
-  justify-content: center;
-  text-align: center;
   background-color: #0a6daf;
   color: white;
-  width: 250px;
-  height: 40px;
-  display: block;
-  border: none;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  margin: 10px 0px 20px 50px;
+  /* search container */
+  font-size: 95%;
 }
 .searchdiv a{
-
   color: white;
   text-decoration: none;
+  /* display: inline-flex; */
 }
