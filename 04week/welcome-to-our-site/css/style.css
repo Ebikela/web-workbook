@@ -1,11 +1,18 @@
+html{
+   border-left: 50px solid black;
+  border-right: 50px solid black;
+}
+body{
+   border: 30px solid white;
+   justify-content: center;
+}
 .topsection{
   background-color: #2bcdc0;
-  height: 450px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: solid 10px black;
-
+  border-bottom: solid 20px black;
 }
 .title{
   color: white;
@@ -19,7 +26,7 @@
 }
 .maincontainer{
   background-color: black;
-  height: 450px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -52,7 +59,7 @@
 {
   .topsection{
     background-color: #33a8dd;
-    border-bottom: solid 10px lightgrey;
+    border-bottom: none;
   }
   .maincontainer{
     background-color: lightgrey;
@@ -64,6 +71,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top:  20px solid lightgrey;
     /* using the display:block did not work for me, it displays the column div in column
     but would not center it in the maincontainer*/
   }
@@ -76,7 +84,5 @@
   .column:nth-child(3){
     border-top: solid 30px #2bcdc0;;
   }
-
-
 /* end of first @media style  */
 }
