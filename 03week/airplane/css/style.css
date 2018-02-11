@@ -1,0 +1,158 @@
+
+html{
+  background-image: url('airline.jpg');
+  width: 100%;
+  /* make airline.jpg the background: image */
+  font-family: 'Open Sans', sans-serif;
+  height: auto;
+
+}
+.navigation{
+height: 100;
+  border-bottom: 2px solid white;
+  background-color: #193A55;
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute;  commented this out, because it takes the outsection div, and place it on top the navigation*/
+
+   /* set the background of the menu/navigation bar to image, and pad it */
+
+}
+.navigation a {
+ color: white !important;
+  text-decoration: none;
+     font-size: 13px;
+     font-weight: normal;
+     display: inline-block;
+
+   /* the class above is to format the menu text appearance */
+
+}
+.navigation a:hover {
+  color: #007A7A !important;
+  /* am not sure why this didnt work without the important? */
+    /* change the color of the menu text when hovered over */
+ }
+.dd{
+  background-color: none;
+  margin-left: 50px
+  /* clear: right; */
+  /* a div item in the menu for the navigation this is to hold the image on menu bar */
+}
+.divicon{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 10px 10px 0px;
+}
+.outsection{
+  background-color: #193A55;
+  position: absolute;
+  width: 400px;
+    height: 380px;
+    margin: 80px 0 0 70px;
+    border-radius: 5px;
+}
+.topsection img:hover{
+  background-color: blue;
+}
+.topsection img{
+  background-color: #007A7A;
+ border-radius: 3px;
+ padding: 5px 43px;
+ margin: -3px;
+}
+.innerbox {
+    width: 170px;
+    height: 50px;
+    margin: 10px;
+    color: white;
+    display: inline-block;
+    border: 3px solid white;
+    /* this is to design Arrive and Depart box in a div */
+}
+.depart-field{
+  background-color: #193A55;
+  width: 168px;
+  height: 48px;
+  margin: auto;
+  display: inline-block;
+  border: none;
+  /* I put a text field with place holder inside the innerbox, with a placeholder */
+}
+.Arrive-field{
+  background-color: #193A55;
+  width: 168px;
+  height: 48px;
+  margin: auto;
+  display: inline-block;
+  border: none;
+}
+::placeholder {
+    background-color: #193A55 !important;
+    }
+.departdate {
+    width: 170px;
+    height: 60px;
+    margin: 10px;
+    display: inline-block;
+    border: 3px solid white;
+
+}
+.Arrivaldate{
+  width: 170px;
+  height: 60px;
+  margin: 10px;
+  display: inline-block;
+  border: 3px solid white;
+}
+form{
+  background-color: #193A55;
+  /* I tried setting the form and the placeholder background colors to none,
+   hoping it will show no color, living it to the background color of the parent,
+   but that did not work, because it was showing as a regular text field */
+}
+input{
+  background-color: #193A55;
+  border: none;
+  color: white;
+}
+input:nth-child(2){
+  color: grey !important;
+}
+/* not sure why the nth-child didnt work here */
+.passentgerdiv{
+  background-color: #193A55;
+  width: 60px;
+  height: 50px;
+  margin: 10px;
+  display: inline-block;
+  border: 3px solid white;
+}
+.outsection{
+  color: white;
+}
+.radiofont{
+  width: 180px;
+  height: 60px;
+  margin: 10px;
+  display: inline-block;
+  border: none;
+}
+.searchdiv{
+  background-color: #0a6daf;
+  color: white;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  margin: 10px 0px 20px 50px;
+  /* search container */
+  font-size: 95%;
+}
+.searchdiv a{
+  color: white;
+  text-decoration: none;
+  /* display: inline-flex; */
+}

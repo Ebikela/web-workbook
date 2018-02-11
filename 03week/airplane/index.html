@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Airplane</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/style.css"> <!--html linked to css -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"></head>
+<body>
+<nav class="navigation">
+ <div class="dd"><img src="img/logo.png"></div>
+ <!-- put the image in a dif div class so I can set it to the left -->
+<!-- trying to seperate the image from the menu icons-->
+<div class="divicon">
+  <a href="https://deytonk.github.io/web-workbook/03week/airplane/index.html"><img src="img\home-icon.png">Home</a> &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;
+              <a href="https://deytonk.github.io/web-workbook/03week/airplane/index.html"><img src="img/deal-icon.png">Travel Deals</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+               <a href="https://deytonk.github.io/web-workbook/03week/airplane/index.html"><img src="img\schedule-icon.png">Fligth Schedule</a>&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;
+              <a href="https://deytonk.github.io/web-workbook/03week/airplane/index.html"><img src="img\login-icon.png">Registration/login</a>&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;
+</div>
+</nav>
+
+<section class="outsection">
+
+  <div class="topsection">
+    <a href="https://deytonk.github.io/web-workbook/03week/airplane/index.html"><img src="img\plane-icon.png"></a>
+    <a href="https://deytonk.github.io/web-workbook/03week/airplane/index.html"><img src="img\hotel-icon.png"></a>
+    <a href="https://deytonk.github.io/web-workbook/03week/airplane/index.html"><img src="img\car-icon.png"></a>
+    <div class="innerbox"><input type="text" class="depart-field" placeholder="Depart"></div>
+    <div class="innerbox"><input type="text" class="Arrive-field" placeholder="Arrive"></div>
+    <div class="departdate">
+      <form>
+      <input type="date">
+    </form>
+  </div>
+    <div class="Arrivaldate">
+      <form>
+  <input type="date">
+    </form>
+    </div>
+  <div class="passentgerdiv">
+    <form>
+      <!-- <select name="#passenger">
+     <option type="number" min="1" max="5" placeholder="1">1</option>
+        <option value="2">2</option>
+          <option value="3">3</option>
+            <option value="4">4</option>
+              <option value="5">5</option>
+            </select>  -->
+                <input type="number" min="1" max="5" value="1">
+        <!-- the option attribute gave me only a down dropdown arrow,
+        but with the input arribute, I was able to get up and down dropdown -->
+    </form>
+  </div>Passenger
+  <div class="radiofont">
+  <form>
+  <input type="radio"  name="radioselection" value="one Way" checked="checked"/>One Way
+   <input type="radio" name="radioselection" value="return" checked="checked" />Return
+</form>
+  </div>
+  <div class="searchdiv"><a href="https://deytonk.github.io/web-workbook/03week/airplane/index.html"> Search Flights</a></div>
+  </div>
+</section>
+
+</body>
+</html>
