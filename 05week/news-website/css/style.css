@@ -1,0 +1,51 @@
+
+.gridcontainer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+    text-align: center;
+   grid-gap: 0.3em;
+   /* border: 2px solid black; */
+}
+div{   border: 2px solid black;
+}
+.radio-button{
+  float: left;
+  margin-top: 185px;
+}
+.square{
+background-color: white;
+border: none;
+ float: right;
+ margin-top: 160px;
+ margin-bottom: 10px;
+ margin-left: 10px;
+  height: 30px;
+   width: 150px;
+}
+/* .square div:nth-child(6){
+  margin-top: 10px;
+  height: 100px;
+   width: 250px;
+} */
+.divfour{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.divfour-sub3{
+    text-align: center;
+  display: grid;
+  grid-column-end: span 2;
+}
+.divfive{
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+
+}
+.divsix{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+text-align: center;
+}
