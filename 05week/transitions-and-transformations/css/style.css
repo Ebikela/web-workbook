@@ -1,0 +1,42 @@
+body{
+  background-color: black;
+}
+.container{
+  width: 10%;
+  margin: 0 auto;
+}
+/* h2{
+ display: none;
+}
+ span:hover + h2 {
+    display: block;
+} */
+/* was trying to make text appear only when overed over, but it dint work
+h2{
+  display: none;
+}
+.container > #hide-text:hover h2{
+  display: block;
+}
+*/
+.container > div {
+  text-align: center;
+  color: solid red;
+  padding-top: 10px;
+  margin: 10px;
+  height: 50px;
+  width:50px;
+  background-color: teal;
+     transition: 2s; /* !-- gives all transform effects 2 sec */
+}
+.container:hover >div:nth-child(odd){
+    background-color: orange;
+  transform: scale(2) translate(200px) rotate(360deg);
+  border-radius: 50px;
+  border: 10px solid red;
+  color: red;
+}
+.container:hover > div:nth-child(even){
+  background-color: red;
+  transform: scale(.5) translate(-400px)  rotate(360deg);
+}
