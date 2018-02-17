@@ -1,0 +1,12 @@
+
+.backimage{
+    /* background-image: url('../img/tomorrows-technology.jpg'); */
+background-image: url('../img/bg.jpg');
+   height: 300px;
+  width: 60%;
+  background-repeat: no-repeat;
+}
+/* .wraper{
+  display: grid;
+  grid-template-columns: 70% 40%;
+} */
