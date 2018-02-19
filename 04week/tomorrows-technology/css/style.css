@@ -19,7 +19,7 @@ margin: 3% 3% 3% 3%;
 
 #under-line{ /*line under h1 text in  banner text*/
   border-top: 1px solid black;
-  width: 30%;
+  width: 95%;
 }
 .banner-text h1{
 font-size: 25px;
